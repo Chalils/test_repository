@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-const corsOptions = ['http://localhost:3015'];
+const corsOptions = ['http://localhost:3015', 'http://localhost:3011','http://localhost:3012'];
 app.use(cors(corsOptions));
 
 // Welcome page API
