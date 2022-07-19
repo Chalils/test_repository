@@ -26,6 +26,8 @@ app.get('/', (req, res) => {
 app.use('/', v1);
 app.use('/', v2);
 app.use('/', v3);
+app.use('/', v4);
+app.use('/', v5);
 
 // Catch 404 and forward to error handler
 app.use((req, res, next) => {
